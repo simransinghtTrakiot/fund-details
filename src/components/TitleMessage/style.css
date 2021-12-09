@@ -1,0 +1,32 @@
+.title-message-block {
+  background-color: hsl(244, 29%, 9%);
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: #f7f5ff;
+}
+.title-message-heading {
+  font-size: 14px;
+  font-weight: 600;
+}
+.title-message-text {
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: justify;
+}
+.title-message-read-more {
+  display: flex;
+  align-items: center;
+
+  font-size: 12px;
+}
+.title-message-read-more a {
+  text-decoration: none;
+  color: #6e56f8;
+}
+.title-message-read-more img {
+  height: 15px;
+  margin-left: 5px;
+}

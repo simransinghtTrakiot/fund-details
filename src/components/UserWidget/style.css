@@ -1,0 +1,46 @@
+.user-widget {
+  background-color: hsl(244, 29%, 9%);
+  border-radius: 18px;
+  display: flex;
+}
+
+.user-image-name {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.user-image-name img {
+  padding: 0px;
+  margin: 0px;
+}
+.user-name {
+  font-size: 16px;
+  color: #dcdcec;
+  font-weight: 600;
+}
+.user-subtitle {
+  color: #94949e;
+  font-size: 10px;
+}
+.user-social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+  padding-right: 15px;
+}
+.user-social-icon {
+  background-color: rgba(110, 86, 248, 0.15);
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  margin-right: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.user-social-icon img {
+  width: 50%;
+}

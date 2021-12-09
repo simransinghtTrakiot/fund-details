@@ -1,0 +1,19 @@
+.code-block {
+  background-color: hsl(244, 29%, 9%);
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+.code-block-title {
+  font-size: 14px;
+}
+.code-block-text {
+  margin-left: 10px;
+  font-size: 12px;
+  flex: 1;
+}
+.copy-icon img {
+  width: 15px;
+}

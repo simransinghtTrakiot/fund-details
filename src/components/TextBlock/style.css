@@ -1,0 +1,14 @@
+.text-block {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.text-block-title {
+  font-size: 14px;
+}
+.text-block-text {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}

@@ -1,0 +1,18 @@
+.select-option-container {
+  background: rgba(110, 86, 248, 0.15);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.select-option-label {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.select-option-container div:first-child {
+  flex: 1;
+}
+.select-option-container img {
+  width: 20px;
+}

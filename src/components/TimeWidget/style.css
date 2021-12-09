@@ -1,0 +1,42 @@
+.time-widget-container {
+  position: relative;
+  background-color: #0b0819;
+  background-repeat: no-repeat;
+
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin: 5px;
+}
+.time-widget-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px;
+  padding: 1px;
+  background: linear-gradient(100deg, #11a3d6, #6134cd);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+
+.time-widget-value {
+  color: #2ca5e0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.time-widget-title {
+  color: #f7f5ff;
+  font-size: 12px;
+}
+
+.left-margin-none {
+  margin-left: 0px !important;
+}
+.right-margin-none {
+  margin-right: 0px !important;
+}
